@@ -5,4 +5,10 @@ fun main() {
     val mySecondDice = Dice(20)
     println("Your $mySecondDice sided dice rolled ${mySecondDice.roll()}!Look he have a ${mySecondDice.coloring()} color")
 
+    val coin = Coin()
+    println("Your coin have a ${coin.sides}. flipping and dropped on ${coin.roll()}")
+
+    val friend = Personage("Jane", "Friend")
+    println("$friend is dropped coin and take ${coin.roll()}")
+
 }

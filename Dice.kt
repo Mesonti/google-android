@@ -1,5 +1,6 @@
 class Dice(val numSides: Int) {
 
+
     fun coloring(): String {
         return mapOf(
             1 to "Green",
